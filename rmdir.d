@@ -7,6 +7,6 @@ void main(string[] args)
     foreach (arg; args[1 .. $])
     {
         if (recursive) arg.rmdirRecurse;
-        else arg.remove;
+        else arg.rmdir;
     }
 }
