@@ -1,4 +1,4 @@
-SOURCES = basename cat cp dirname echo mv pwd rm rmdir seq sort touch uniq
+SOURCES = basename cat cp dirname echo mv pwd rm rmdir seq sort touch uniq wc
 
 all: $(addprefix bin/, $(SOURCES))
 
